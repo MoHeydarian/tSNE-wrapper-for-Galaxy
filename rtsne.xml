@@ -54,7 +54,9 @@
         </test>
     </tests>
     <help><![CDATA[
-Alpha
+This tool runs the R wrapper for the fast T-distributed Stochastic Neighbor Embedding implementation by Van der Maaten (see <https://github.com/lvdmaaten/bhtsne/> for more information on the original implementation).
+
+Your data should be in tabular format. Objects in rows will be clustered according to the observations in columns. Labels for objects can be assigned in the tool form by providing the column number of the identifier you wish to use. Additionaly, the first column containing numeric data should be provided to the tool form. 
     ]]></help>
     <citations>
         <citation type="bibtex">
